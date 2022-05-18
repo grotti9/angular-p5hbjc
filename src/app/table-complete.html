@@ -12,7 +12,7 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col" sortable="name" (sort)="onSort($event)">Client</th>
-      <th scope="col" sortable="area" (sort)="onSort($event)">Area</th>
+      <th scope="col" sortable="address" (sort)="onSort($event)">Address</th>
       <th scope="col" sortable="population" (sort)="onSort($event)">Population</th>
     </tr>
     </thead>
@@ -20,10 +20,10 @@
     <tr *ngFor="let client of clients$ | async">
       <th scope="row">{{ client.id }}</th>
       <td>
-        <img [src]="'https://cdn-icons-png.flaticon.com/512/' + client.flag" class="me-2" style="width: 20px">
+        <img [src]="'https://cdn-icons-png.flaticon.com/512/' + client.icon" class="me-2" style="width: 20px">
         <ngb-highlight [result]="client.name" [term]="service.searchTerm"></ngb-highlight>
       </td>
-      <td><ngb-highlight [result]="client.area | number" [term]="service.searchTerm"></ngb-highlight></td>
+      <td><ngb-highlight [result]="client.address | number" [term]="service.searchTerm"></ngb-highlight></td>
       <td><ngb-highlight [result]="client.population | number" [term]="service.searchTerm"></ngb-highlight></td>
     </tr>
     </tbody>

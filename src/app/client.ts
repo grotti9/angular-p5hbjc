@@ -1,7 +1,7 @@
 export interface Client {
   id: number;
   name: string;
-  flag: string;
-  area: number;
+  icon: string;
+  address: string;
   population: number;
 }
