@@ -37,7 +37,7 @@ function sort(clients: Client[], column: SortColumn, direction: string): Client[
 function matches(Client: Client, term: string, pipe: PipeTransform) {
   return Client.name.toLowerCase().includes(term.toLowerCase())
     || pipe.transform(Client.address).includes(term)
-    || pipe.transform(Client.population).includes(term);
+    || pipe.transform(Client.ordertotal).includes(term);
 }
 
 @Injectable({providedIn: 'root'})

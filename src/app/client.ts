@@ -3,5 +3,5 @@ export interface Client {
   name: string;
   icon: string;
   address: string;
-  population: number;
+  ordertotal: number;
 }

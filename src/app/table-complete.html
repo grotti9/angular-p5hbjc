@@ -13,7 +13,7 @@
       <th scope="col">#</th>
       <th scope="col" sortable="name" (sort)="onSort($event)">Client</th>
       <th scope="col" sortable="address" (sort)="onSort($event)">Address</th>
-      <th scope="col" sortable="population" (sort)="onSort($event)">Population</th>
+      <th scope="col" sortable="ordertotal" (sort)="onSort($event)">Order Total</th>
     </tr>
     </thead>
     <tbody>
@@ -24,7 +24,7 @@
         <ngb-highlight [result]="client.name" [term]="service.searchTerm"></ngb-highlight>
       </td>
       <td><ngb-highlight [result]="client.address | number" [term]="service.searchTerm"></ngb-highlight></td>
-      <td><ngb-highlight [result]="client.population | number" [term]="service.searchTerm"></ngb-highlight></td>
+      <td><ngb-highlight [result]="client.ordertotal | number" [term]="service.searchTerm"></ngb-highlight></td>
     </tr>
     </tbody>
   </table>
