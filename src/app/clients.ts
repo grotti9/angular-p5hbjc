@@ -5,29 +5,29 @@ export const CLIENTS: Client[] = [
     id: 1,
     name: 'Elena Barolo',
     icon: '4140/4140047.png',
-    address: '17075200',
-    ordertotal: 146989754
+    address: 'Piazza Navona, Roma',
+    ordertotal: 131548921
   },
   {
     id: 2,
     name: 'Guido Rossi',
     icon: '4128/4128176.png',
-    address: '17075200',
-    ordertotal: 64979548
+    address: 'Via Dante, Torino',
+    ordertotal: 89445618
   },
   {
     id: 3,
     name: 'Paolo Serra',
     icon: '4128/4128176.png',
-    address: '17075200',
-    ordertotal: 64979548
+    address: 'Viale strasburgo, Palermo',
+    ordertotal: 98741651
   },
   {
     id: 4,
     name: 'Chiara Russo',
     icon: '4140/4140047.png',
-    address: '17075200',
-    ordertotal: 146989754
+    address: 'Corso Sempione, Milano',
+    ordertotal: 178965687
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ export const CLIENTS: Client[] = [
     ordertotal: 209288278
   },
   {
-    id: 13,
+    id: 8,
     name: 'China',
     icon: 'f/fa/icon_of_the_People%27s_Republic_of_China.svg',
     address: '17075200',
