@@ -31,30 +31,30 @@ export const CLIENTS: Client[] = [
   },
   {
     id: 5,
-    name: 'Canada',
-    icon: 'c/cf/icon_of_Canada.svg',
-    address: '17075200',
-    ordertotal: 36624199
+    name: 'Alfredo Razzi',
+    icon: '4128/4128176.png',
+    address: 'Ponte Vecchio, Firenze',
+    ordertotal: 98464988
   },
   {
     id: 6,
-    name: 'Vietnam',
-    icon: '2/21/icon_of_Vietnam.svg',
-    address: '17075200',
-    ordertotal: 95540800
+    name: 'Luca Fontana',
+    icon: '4128/4128176.png',
+    address: 'Via Verdi, Como',
+    ordertotal: 46456893
   },
   {
     id: 7,
-    name: 'Brazil',
-    icon: '0/05/icon_of_Brazil.svg',
-    address: '17075200',
-    ordertotal: 209288278
+    name: 'Alice Bianchi',
+    icon: '4140/4140047.png',
+    address: 'Via Mazzini, Genova',
+    ordertotal: 207958654
   },
   {
     id: 8,
-    name: 'China',
-    icon: 'f/fa/icon_of_the_People%27s_Republic_of_China.svg',
-    address: '17075200',
-    ordertotal: 1409517397
+    name: 'Sara Gallo',
+    icon: '4140/4140047.png',
+    address: 'Piazza Garibaldi, Trento',
+    ordertotal: 149198199
   }
 ];
