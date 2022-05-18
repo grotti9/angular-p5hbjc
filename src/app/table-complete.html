@@ -21,7 +21,7 @@
       <th scope="row">{{ client.id }}</th>
       <td>
         <img [src]="'https://cdn-icons-png.flaticon.com/512/' + client.icon" class="me-2" style="width: 20px">
-        <ngb-highlight [result]="client.name" [term]="service.searchTerm"></ngb-highlight>
+        <a href='./client-detail.html'><ngb-highlight [result]="client.name" [term]="service.searchTerm"></ngb-highlight></a>
       </td>
       <td><ngb-highlight [result]="client.address" [term]="service.searchTerm"></ngb-highlight></td>
       <td><ngb-highlight [result]="client.ordertotal | number" [term]="service.searchTerm"></ngb-highlight></td>
