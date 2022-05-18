@@ -4,7 +4,7 @@ export const CLIENTS: Client[] = [
   {
     id: 1,
     name: 'Russia',
-    flag: 'f/f3/Flag_of_Russia.svg',
+    flag: '4140/4140047.png',
     area: 17075200,
     population: 146989754
   },

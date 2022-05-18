@@ -20,7 +20,7 @@
     <tr *ngFor="let client of clients$ | async">
       <th scope="row">{{ client.id }}</th>
       <td>
-        <img [src]="'https://upload.wikimedia.org/wikipedia/commons/' + client.flag" class="me-2" style="width: 20px">
+        <img [src]="'https://cdn-icons-png.flaticon.com/512/' + client.flag" class="me-2" style="width: 20px">
         <ngb-highlight [result]="client.name" [term]="service.searchTerm"></ngb-highlight>
       </td>
       <td><ngb-highlight [result]="client.area | number" [term]="service.searchTerm"></ngb-highlight></td>
